@@ -1,0 +1,46 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#horsetitle {
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    margin-top: 54px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 60px;
+}
+
+.dropdown{
+    text-align: center;
+    padding: 0px;
+}
+
+#dropdownMenuButton1{
+    padding: 5px 8px 5px 8px;  /*top,right,bottom,left */
+
+}
+
+#selecionar{
+    color: white;
+    background-color: rgb(9, 151, 116);
+    padding: 4px;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 17px;
+    margin-top: 30%;
+    align-items: center;
+}
