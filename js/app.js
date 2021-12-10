@@ -1,2 +1,1 @@
-
-
+$('#mangModal').modal(options)
