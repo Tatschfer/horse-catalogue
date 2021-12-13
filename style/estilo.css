@@ -11,10 +11,10 @@
     margin-top: 0%;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/banner.jpg");
     background-position: center;
-    height: 400px;
+    height: 900px;
     background-size:cover;
     color: white;
-    font-size: 60px;
+    font-size: 100px;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
@@ -40,7 +40,7 @@
 
 .navbar-collapse{
     background-color: rgba(128, 128, 128, 0.336);
-    font-size: 16px;
+    font-size: 20px;
     place-content: center;
     padding:0.2%;
     
@@ -48,31 +48,44 @@
 
 .coluna1, .coluna3, .coluna5, .coluna7, .coluna9 {
     background-color:#d3d3d3;
-    padding-top: 5%;
+    padding-top: 2%;
     padding-bottom: 5%;
     text-align: center;
 }
 
 .coluna2, .coluna4, .coluna6, .coluna8, .coluna10{
     background-color:#d3d3d38c;
-    padding-top: 5%;
+    padding-top: 2%;
     padding-bottom: 5%;
     text-align: center;
 
 }
+
+.fotinhos{
+    border-radius: 10px;
+    width: 200px;
+    height: 140px;
+}
 p{
     font-size: 12px;
+    position: relative;
+    top: 10px;
 }
 
-.title{
+.titleIndex{
     position: relative;
-    top: 110px;
+    top: 330px;
+}
+
+.titleRacas{
+    position: relative;
+    top: 200px;
 }
 
 .descricaotitle{
-    font-size: 15px;
+    font-size: 30px;
     position: relative;
-    top: 110px;
+    top: 340px;
 }
 
 .btn{
@@ -94,12 +107,20 @@ p{
     background-color: grey;
 }
 
+.btn{
+    text-align: center;
+}
+
 footer{
-	position: absolute;
-	top: 150%;
-    width: 101%;
+	position: relative;
+	margin: auto;
+    width: 100%;
     padding: 10px;
     background-color: var(--verdePetroleo);
     color: white;
     text-align: center;
 }
+
+.rodapeRaca{
+    position: relative;
+    top: 700px;
