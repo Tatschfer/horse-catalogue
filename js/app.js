@@ -1,3 +1,3 @@
-function abreModal(){
-  document.getElementById("modalExample").innerHTML= "modalExample";
-};
+function alteraModal(raca){
+  document.getElementById("staticBackdropLabel").innerHTML=raca;
+}

@@ -32,8 +32,21 @@
     font-weight: bold;
     text-decoration: none;
     text-align: center;
-
 }
+
+.banner-principal-pelagens{
+    margin-top: 0%;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/pelagens.jpg");
+    background-position: center;
+    height: 400px;
+    background-size:cover;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
 .row{
     height: 350px;
 }
@@ -46,14 +59,14 @@
     
 }
 
-.coluna1, .coluna3, .coluna5, .coluna7, .coluna9 {
+.coluna1, .coluna3, .coluna6, .coluna8, .coluna9, .coluna11 {
     background-color:#d3d3d3;
     padding-top: 2%;
     padding-bottom: 5%;
     text-align: center;
 }
 
-.coluna2, .coluna4, .coluna6, .coluna8, .coluna10{
+.coluna2, .coluna4, .coluna5, .coluna7, .coluna10, .coluna12{
     background-color:#d3d3d38c;
     padding-top: 2%;
     padding-bottom: 5%;
@@ -77,10 +90,11 @@ p{
     top: 330px;
 }
 
-.titleRacas{
+.titleRacas, .titlePelagens{
     position: relative;
     top: 200px;
 }
+
 
 .descricaotitle{
     font-size: 30px;
@@ -96,7 +110,6 @@ p{
     color: rgb(56, 53, 53);
     background-color: rgba(128, 128, 128, 0.404);
     border: none;
-    margin-top: 10px;
 }
 
 .btn:hover{
@@ -111,6 +124,14 @@ p{
     text-align: center;
 }
 
+.lista{
+    place-content: center;
+}   
+
+.txtDescri{
+    height: 130px;
+}
+
 footer{
 	position: relative;
 	margin: auto;
@@ -123,4 +144,5 @@ footer{
 
 .rodapeRaca{
     position: relative;
-    top: 700px;
+    top: 965px;
+}
