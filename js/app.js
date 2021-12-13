@@ -1,1 +1,3 @@
-$('#mangModal').modal(options)
+function abreModal(){
+  document.getElementById("modalExample").innerHTML= "modalExample";
+};
