@@ -7,11 +7,15 @@
     --preta: #141414;
 }
 
+.container{
+    max-width: 100%;
+}
+
 .banner-principal{
     margin-top: 0%;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/banner.jpg");
     background-position: center;
-    height: 900px;
+    height: 647px;
     background-size:cover;
     color: white;
     font-size: 100px;
@@ -48,14 +52,13 @@
 }
 
 .row{
-    height: 350px;
+    height: 320px;
 }
 
 .navbar-collapse{
-    background-color: rgba(128, 128, 128, 0.336);
     font-size: 20px;
     place-content: center;
-    padding:0.2%;
+    padding:auto;
     
 }
 
@@ -83,11 +86,18 @@ p{
     font-size: 12px;
     position: relative;
     top: 10px;
+    padding: 10px;
+}
+
+@font-face {
+    font-family: 'Prata', serif;
+    src: url(https://fonts.googleapis.com/css2?family=Prata&display=swap);
 }
 
 .titleIndex{
+    font-family: 'Prata';
     position: relative;
-    top: 330px;
+    top: 200px;
 }
 
 .titleRacas, .titlePelagens{
@@ -97,34 +107,36 @@ p{
 
 
 .descricaotitle{
-    font-size: 30px;
+    font-size: 20px;
     position: relative;
-    top: 340px;
+    top: 200px;
 }
 
-.btn{
+.buttRaca{
     color: white;
     font-size: 16px;
-    width: 110px;
+    width: 105px;
     height: 40px;
     color: rgb(56, 53, 53);
     background-color: rgba(128, 128, 128, 0.404);
     border: none;
+    margin-top: 15px;
 }
 
-.btn:hover{
+.buttRaca:hover{
     background-color: grey;
 }
 
-.btn:focus{
+.buttRaca:focus{
     background-color: grey;
 }
 
-.btn{
+.buttRaca{
     text-align: center;
 }
 
 .lista{
+    margin-top: 20px;
     place-content: center;
 }   
 
@@ -137,12 +149,12 @@ footer{
 	margin: auto;
     width: 100%;
     padding: 10px;
-    background-color: var(--verdePetroleo);
+    background-color: black;
     color: white;
     text-align: center;
 }
 
 .rodapeRaca{
     position: relative;
-    top: 965px;
+    top: 1083px;
 }
